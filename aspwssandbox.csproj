@@ -59,9 +59,13 @@
   <ItemGroup>
     <Content Include="App_Themes\Blue\site.css" />
     <Content Include="Default.aspx" />
+    <Content Include="test.aspx" />
+    <Content Include="ThankYouRegistration.aspx" />
     <Content Include="Web.config" />
+    <Content Include="UserRegistration.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Code\SimpleObject.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -77,6 +81,27 @@
       <DependentUpon>DefaultSite.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="test.aspx.cs">
+      <DependentUpon>test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="test.aspx.designer.cs">
+      <DependentUpon>test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ThankYouRegistration.aspx.cs">
+      <DependentUpon>ThankYouRegistration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ThankYouRegistration.aspx.designer.cs">
+      <DependentUpon>ThankYouRegistration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserRegistration.aspx.cs">
+      <DependentUpon>UserRegistration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserRegistration.aspx.designer.cs">
+      <DependentUpon>UserRegistration.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="DefaultSite.Master" />

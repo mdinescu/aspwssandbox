@@ -4,4 +4,8 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="mainContentArea" runat="server">
         <asp:Button ID="btnPressMe" Text="Press Me" runat="server" OnClick="btnPressMe_Click" />
         <asp:TextBox ID="txtTestTextbox" runat="server" CssClass="redborder" />
+
+        <div>
+            <span>This is a </span><asp:Label ID="lblInfo" runat="server"/>
+        </div>
 </asp:Content>

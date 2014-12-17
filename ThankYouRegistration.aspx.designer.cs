@@ -10,33 +10,27 @@
 namespace aspwssandbox {
     
     
-    public partial class Default {
+    public partial class ThankYouRegistration {
         
         /// <summary>
-        /// btnPressMe control.
+        /// full_user_name control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnPressMe;
+        protected global::System.Web.UI.WebControls.Label full_user_name;
         
         /// <summary>
-        /// txtTestTextbox control.
+        /// PreviousPage property.
         /// </summary>
         /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
+        /// Auto-generated property.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtTestTextbox;
-        
-        /// <summary>
-        /// lblInfo control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblInfo;
+        public new aspwssandbox.WebForm1 PreviousPage {
+            get {
+                return ((aspwssandbox.WebForm1)(base.PreviousPage));
+            }
+        }
     }
 }
